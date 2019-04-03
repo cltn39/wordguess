@@ -28,3 +28,14 @@
 // TO DO: display the current word
 
 // TO DO: display the guesses remaining
+
+var wins = 0;
+var losses = 0;
+
+
+document.onkeyup = function(event) {
+    if (event.keyCode >= 65 && event.keyCode <= 90)
+    {
+        console.log(event.key.toLocaleLowerCase());
+    }
+}
