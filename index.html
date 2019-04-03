@@ -1,21 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>word guess game</title>
 </head>
+
 <body>
-   <!-- TODO: choose a cool theme -->
-   Press any key to get started!
-   Wins:
-   Losses:
-   Number of Guesses Remaining:
-   Letters ALready Guessed:
-   _ _ _ _ _ _ _
-   m a d o _ _ a
-   <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <!-- TODO: choose a cool theme -->
+    <div class="jumbotron">
+        <h1 class="display-4">Hangman Game</h1>
+        <p class="lead">Press any key to get started!</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Wins:</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Losses:</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Number of Guesses Remaining:</p>
+        </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-title">Letters ALready Guessed:</h5>
+            <p class="card-text">_ _ _ _ _ _ _</p>
+        </div>
+    </div>
+    <!-- m a d o _ _ a -->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
+
 </html>
